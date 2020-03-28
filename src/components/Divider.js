@@ -8,12 +8,12 @@ const DiviImg = styled.img`
 const DivHolder = styled.div`
     display: flex;
     justify-content: center;
-    height: 20px;
+    height: auto;
 
     @media (max-width: 500px) {
         margin-top: 3em;
         margin-bottom: 2em;   
-        width: 100%;
+        width: auto;
       }
 `;
 
