@@ -269,6 +269,11 @@ const WorkExperience = styled.div`
         margin-bottom: 40px !important;
     }
 
+    a {
+        text-decoration: none;
+        color: #0A0560;
+    }
+
     a:visited {
         text-decoration: none;
         color: #0A0560;
