@@ -27,7 +27,7 @@ const Date = styled.p`
   margin-left: 30px !important;
 
   @media (max-width: 500px) {
-    font-size: 12px !important;
+    font-size: 18px !important;
   }
 `;
 
