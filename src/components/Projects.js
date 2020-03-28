@@ -9,6 +9,7 @@ const IndvProjects = styled.div`
     margin-bottom: 30px;
 
     > h6 {
+        font-size: 12px;
         margin-left: 30px !important;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
