@@ -396,26 +396,31 @@ class MainPage extends React.Component {
                 <Experience><h4>here’s a bit of my <Colour>experience</Colour> over the past few years…</h4>
                     <ExperienceContent>
                         <WorkExperience> <h4><Bold>work <Colour>experience.</Colour></Bold></h4>
-                            <WorkExperiences title=" jam3 — we3 developer intern"
+                            {/* <WorkExperiences title=" jam3 — we3 developer intern"
                                 description="(1)"
                                 label="may 2020 — aug 2020"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             >
-                            </WorkExperiences>
+                            </WorkExperiences> */}
                             <WorkExperiences title=" waterloop — web dev lead"
-                                description="(2)"
+                                description="(1)"
                                 label="jan 2020 — present"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             >
                             </WorkExperiences>
                             <WorkExperiences title=" crowdlinker — qa analyst intern"
-                                description="(3)"
+                                description="(2)"
                                 label="sep 2019 — dec 2019"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             ></WorkExperiences>
                             <WorkExperiences title=" blackberry — software developer intern"
-                                description="(4)"
+                                description="(3)"
                                 label="jan 2019 — apr 2019"
+                                link="https://www.linkedin.com/in/jerin-raisa/"
+                            ></WorkExperiences>
+                            <WorkExperiences title=" ubilab — software developer intern"
+                                description="(4)"
+                                label="sep 2018 — dec 2018"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             ></WorkExperiences>
                         </WorkExperience>
