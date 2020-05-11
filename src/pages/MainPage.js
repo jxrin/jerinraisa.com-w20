@@ -194,7 +194,7 @@ const KnowMore = styled.div`
         height: auto;
 
         > h3 {
-            font-size: 15px;
+            font-size: 18px;
         }
 
         > h4 {
