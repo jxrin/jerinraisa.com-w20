@@ -380,7 +380,7 @@ class MainPage extends React.Component {
                             <h3><sup>(1)</sup> studying engineering is fun and challenging, but sometimes i need to step back and get creative with my work instead.</h3>
                         </AnswersContent>
                         <AnswersContent>
-                            <h3><sup>(2)</sup> i like getting lost in books. i’m currently reading <Italics>flowers for algernon</Italics> and planning on reading <Italics>neuromancer</Italics> next.</h3>
+                            <h3><sup>(2)</sup> i like getting lost in books. i’m currently reading <Italics>the 5<sup>th</sup> wave</Italics> and planning on reading <Italics>the dreams that stuff is made of</Italics> next.</h3>
                         </AnswersContent>
                         <AnswersContent>
                             <h3><sup>(3)</sup> my mom’s pretty mad at me about all the sneakers i have, she’ll probably throw them all out if i buy a new pair ☹️.</h3>
