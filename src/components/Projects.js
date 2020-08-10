@@ -42,7 +42,7 @@ const Description = styled.p`
 class Projects extends React.Component {
     render() {
         return (
-            <a target="_blank" href={this.props.link}>
+            <a target="_blank" rel="noopener noreferrer" href={this.props.link}>
                 <IndvProjects>
                     <Title><sup>{this.props.label}</sup>{this.props.title}</Title>
                     <Description>{this.props.description}</Description>

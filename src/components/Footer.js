@@ -82,6 +82,7 @@ class Footer extends React.Component {
               className="link"
               href="mailto:jerin.raisa11@gmail.com?Subject=Hello%20👋🏼!"
               target="_blank"
+              rel="noopener noreferrer"
             >
               email
                         </a>
@@ -89,6 +90,7 @@ class Footer extends React.Component {
               className="link"
               href="https://www.linkedin.com/in/jerin-raisa/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               linkedin
                         </a>
@@ -96,6 +98,7 @@ class Footer extends React.Component {
               className="link"
               href="https://github.com/jxrin/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               github
                         </a>
@@ -103,6 +106,7 @@ class Footer extends React.Component {
               className="link"
               href="https://drive.google.com/file/d/17A7BEYr0rmUHnAw2-TFMTQFqKjI_rI14/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
             >
               resume
                         </a>

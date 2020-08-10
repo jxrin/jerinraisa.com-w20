@@ -32,16 +32,16 @@ const Date = styled.p`
 `;
 
 class WorkExperience extends React.Component {
-    render() {
-        return (
-            <a target="_blank" href={this.props.link}>
-                <IndvExperience>
-                    <Title><sup>{this.props.description}</sup>{this.props.title}</Title>
-                    <Date>{this.props.label}</Date>
-                </IndvExperience>
-            </a >
-        );
-    }
+  render() {
+    return (
+      <a target="_blank" rel="noopener noreferrer" href={this.props.link}>
+        <IndvExperience>
+          <Title><sup>{this.props.description}</sup>{this.props.title}</Title>
+          <Date>{this.props.label}</Date>
+        </IndvExperience>
+      </a >
+    );
+  }
 }
 
 export default WorkExperience;
