@@ -79,9 +79,11 @@ class Navbar extends React.Component {
     return (
       <div>
         <HeaderContainer>
-          <Jerin>
-            <h1>jerin</h1>
-          </Jerin>
+          <a href="https://www.jerinraisa.com">
+            <Jerin>
+              <h1>jerin</h1>
+            </Jerin>
+          </a>
           <PagesContainer>
             <a
               className="link"
