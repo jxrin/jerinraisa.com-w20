@@ -374,22 +374,21 @@ class MainPage extends React.Component {
                 <BorderImg></BorderImg>
                 <Questions>
                     <h4><Bold>question:</Bold> sum me up in three words?</h4>
-                    <h4><Bold><Colour>answer:</Colour></Bold> creative<sup>(1)</sup>, bookworm<sup>(2)</sup>, and sneakerhead<sup>(3)</sup></h4>
+                    <h4><Bold><Colour>answer:</Colour></Bold> creative<sup>(1)</sup>, bookworm<sup>(2)</sup>, and wip longboarder<sup>(3)</sup></h4>
                     <Answers>
                         <AnswersContent>
                             <h3><sup>(1)</sup> studying engineering is fun and challenging, but sometimes i need to step back and get creative with my work instead.</h3>
                         </AnswersContent>
                         <AnswersContent>
-                            <h3><sup>(2)</sup> i like getting lost in books. i’m currently reading <Italics>the 5<sup>th</sup> wave</Italics> and planning on reading <Italics>the dreams that stuff is made of</Italics> next.</h3>
+                            <h3><sup>(2)</sup> i like getting lost in books. i’m currently reading <Italics>harry potter and the globlet of fire</Italics> and planning on reading <Italics>neuromancer</Italics> next.</h3>
                         </AnswersContent>
                         <AnswersContent>
-                            <h3><sup>(3)</sup> my mom’s pretty mad at me about all the sneakers i have, she’ll probably throw them all out if i buy a new pair ☹️.</h3>
+                            <h3><sup>(3)</sup> i recently picked up longboarding this summer, overall <Italics>fall count: 1, jerin: 0.</Italics> </h3>
                         </AnswersContent>
                     </Answers>
                     <KnowMore>
                         <h4>want to know a <Italics><Colour>bit</Colour></Italics> more?</h4>
-                        <h3>i’m a second year student, studying computer engineering at the university of waterloo,
-                            learning both dev and design to create projects that make a <Bold>difference</Bold>.</h3>
+                        <h3>i’m a second year student, studying computer engineering at the university of waterloo. i also enjoy working on freelance projects in the form of portfolios, digital web applications, or fun, interactive experiences.</h3>
                     </KnowMore>
                 </Questions>
                 <BorderImg></BorderImg>
@@ -398,7 +397,7 @@ class MainPage extends React.Component {
                         <WorkExperience> <h4><Bold>work <Colour>experience.</Colour></Bold></h4>
                             {/* <WorkExperiences title=" jam3 — we3 developer intern"
                                 description="(1)"
-                                label="may 2020 — aug 2020"
+                                label="jan 2021 — apr 2021"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             >
                             </WorkExperiences> */}
