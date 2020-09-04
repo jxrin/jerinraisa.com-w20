@@ -1,5 +1,9 @@
 import React from 'react';
 import styled from "styled-components";
+import {
+  Link,
+  BrowserRouter as Router,
+} from "react-router-dom";
 import "./styling/Header.css";
 
 const HeaderContainer = styled.div`
@@ -71,11 +75,14 @@ class Navbar extends React.Component {
     return (
       <div>
         <HeaderContainer>
-          <a href="https://www.jerinraisa.com">
-            <Jerin>
-              <h1>jerin</h1>
-            </Jerin>
-          </a>
+          <Router>
+            <Link to="/">
+              <Jerin>
+                <h1>jerin</h1>
+              </Jerin>
+            </Link>
+          </Router>
+
           <PagesContainer>
             <a
               className="link"
@@ -87,7 +94,7 @@ class Navbar extends React.Component {
             </a>
             <a
               className="link"
-              href="https://drive.google.com/file/d/17A7BEYr0rmUHnAw2-TFMTQFqKjI_rI14/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ci7y-50Tg1JR9TKFGzSTLjeqQlgeEmGo/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

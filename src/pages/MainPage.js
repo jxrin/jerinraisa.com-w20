@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BorderImg from "../components/Divider";
 import NavBar from "../components/Navbar";
-import JerinIcon from "../imgs/Jerin-Avatar.svg";
+import JerinIcon from "../imgs/jerin3.png";
 import WorkExperiences from "../components/WorkExperience";
 import ProjectExperiences from "../components/Projects";
 import Footer from "../components/Footer";
@@ -43,9 +43,10 @@ const Content = styled.div`
 
 const JerinImg = styled.img`
     display: flex;
-    height: auto;
-    width: auto;
-    margin-right: 196px;
+    height: 350px;
+    width: 350px;
+    margin-right: 150px;
+    margin-top: 100px;
 
     @media (max-width: 500px) {
         display: none;
@@ -115,7 +116,7 @@ const Bold = styled.text`
 `;
 
 const Colour = styled.text`
-    color: #FFA336;
+    color: #CE5755;
 `;
 
 const Italics = styled.text`
@@ -374,7 +375,7 @@ class MainPage extends React.Component {
                 <BorderImg></BorderImg>
                 <Questions>
                     <h4><Bold>question:</Bold> sum me up in three words?</h4>
-                    <h4><Bold><Colour>answer:</Colour></Bold> creative<sup>(1)</sup>, bookworm<sup>(2)</sup>, and wip longboarder<sup>(3)</sup></h4>
+                    <h4><Bold><Colour>answer:</Colour></Bold> creative<sup>(1)</sup>, bookworm<sup>(2)</sup>, and work-in-progress longboarder<sup>(3)</sup></h4>
                     <Answers>
                         <AnswersContent>
                             <h3><sup>(1)</sup> studying engineering is fun and challenging, but sometimes i need to step back and get creative with my work instead.</h3>
@@ -395,16 +396,16 @@ class MainPage extends React.Component {
                 <Experience><h4>here’s a bit of my <Colour>experience</Colour> over the past few years…</h4>
                     <ExperienceContent>
                         <WorkExperience> <h4><Bold>work <Colour>experience.</Colour></Bold></h4>
-                            {/* <WorkExperiences title=" jam3 — we3 developer intern"
+                            <WorkExperiences title=" jam3 — incoming software developer intern"
                                 description="(1)"
                                 label="jan 2021 — apr 2021"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             >
-                            </WorkExperiences> */}
-                            <WorkExperiences title=" waterloop — web dev lead"
+                            </WorkExperiences>
+                            <WorkExperiences title=" waterloop — web dev lead + mentor"
                                 description="(1)"
                                 label="jan 2020 — present"
-                                link="https://www.linkedin.com/in/jerin-raisa/"
+                                link="https://teamwaterloop.ca/"
                             >
                             </WorkExperiences>
                             <WorkExperiences title=" crowdlinker — qa analyst intern"
@@ -417,11 +418,11 @@ class MainPage extends React.Component {
                                 label="jan 2019 — apr 2019"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             ></WorkExperiences>
-                            <WorkExperiences title=" ubilab — software developer intern"
+                            {/* <WorkExperiences title=" ubilab — software developer intern"
                                 description="(4)"
                                 label="sep 2018 — dec 2018"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
-                            ></WorkExperiences>
+                            ></WorkExperiences> */}
                         </WorkExperience>
                         <Projects>
                             <h4><Bold>my <Colour>projects.</Colour></Bold></h4>
@@ -444,7 +445,14 @@ class MainPage extends React.Component {
                         </Projects>
                     </ExperienceContent>
                 </Experience>
-                <Opportunities><h5>have any interesting opportunities, book suggestions, or questions? hit me up! ✌🏼 </h5></Opportunities>
+                <Opportunities>
+                    <h5>have any interesting opportunities, book suggestions, or questions?
+                    <a
+                            href="mailto:jerin.raisa11@gmail.com?Subject=Hello%20👋🏼!"
+                            target="_blank"
+                            rel="noopener noreferrer"> hit me up!
+                    </a> ✌🏼</h5>
+                </Opportunities>
                 <Footer></Footer>
             </PageContainer >
         );

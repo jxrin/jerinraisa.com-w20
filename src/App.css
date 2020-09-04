@@ -53,11 +53,12 @@ h6 {
 
 a {
   text-decoration: none;
+  color: #0A0560;
 }
 
 a:hover {
   text-decoration: none;
-  color: #FFA336;
+  color: #CE5755;
 }
 
 a:visited {
