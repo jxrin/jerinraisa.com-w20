@@ -15,7 +15,7 @@ h2 {
 }
 
 h2:hover span {
-  color: #FFA336;
+  color: #CE5755;
 }
 
 h3 {
@@ -48,7 +48,7 @@ h6 {
   font-style: italic;
   font-weight: bold;
   font-size: 20px;
-  color: #8482AF !important;
+  /* color: #8482AF !important; */
 }
 
 a {
@@ -67,4 +67,16 @@ a:visited {
 
 sup {
   font-size: 15px;
+}
+
+.linkStyle {
+  font-family: "amiri";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.linkStyle:hover {
+  color: #CE5755;
 }

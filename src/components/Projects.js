@@ -42,21 +42,18 @@ const Description = styled.p`
 class Projects extends React.Component {
     render() {
         return (
-            <a target="_blank" rel="noopener noreferrer" href={this.props.link}>
-                <IndvProjects>
-                    <Title><sup>{this.props.label}</sup>{this.props.title}</Title>
-                    <Description>{this.props.description}</Description>
-                    <h6>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href={this.props.link}
-                        >
-                            view project
-                        </a>
-                    </h6>
-                </IndvProjects>
-            </a >
+            <IndvProjects>
+                <Title><sup>{this.props.label}</sup>{this.props.title}</Title>
+                <Description>{this.props.description}</Description>
+                <a
+                    className="linkStyle"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={this.props.link}
+                >
+                    view project
+                </a>
+            </IndvProjects>
         );
     }
 }
