@@ -104,7 +104,7 @@ class Footer extends React.Component {
                         </a>
             <a
               className="link"
-              href="https://drive.google.com/file/d/1Ci7y-50Tg1JR9TKFGzSTLjeqQlgeEmGo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1neMccnnug9sVbv9czs2Jn812RHxB_o8g/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
