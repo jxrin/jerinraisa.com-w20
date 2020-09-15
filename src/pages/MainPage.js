@@ -408,7 +408,7 @@ class MainPage extends React.Component {
                                 link="https://teamwaterloop.ca/"
                             >
                             </WorkExperiences>
-                            <WorkExperiences title=" crowdlinker — qa analyst intern"
+                            <WorkExperiences title=" crowdlinker — qa analyst + dev intern"
                                 description="(2)"
                                 label="sep 2019 — dec 2019"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
