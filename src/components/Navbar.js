@@ -94,7 +94,7 @@ class Navbar extends React.Component {
             </a>
             <a
               className="link"
-              href="https://drive.google.com/file/d/1neMccnnug9sVbv9czs2Jn812RHxB_o8g/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wwhLx6Nj0kiZI-gVkZIrwy4QL_XLEqHy/view"
               target="_blank"
               rel="noopener noreferrer"
             >
