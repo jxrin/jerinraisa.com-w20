@@ -396,12 +396,12 @@ class MainPage extends React.Component {
                 <Experience><h4>here’s a bit of my <Colour>experience</Colour> over the past few years…</h4>
                     <ExperienceContent>
                         <WorkExperience> <h4><Bold>work <Colour>experience.</Colour></Bold></h4>
-                            {/* <WorkExperiences title=" jam3 — incoming software developer intern"
+                            <WorkExperiences title=" jam3 — incoming software developer intern"
                                 description="(1)"
                                 label="jan 2021 — apr 2021"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             >
-                            </WorkExperiences> */}
+                            </WorkExperiences>
                             <WorkExperiences title=" waterloop — web dev lead + mentor"
                                 description="(1)"
                                 label="jan 2020 — present"
@@ -418,11 +418,11 @@ class MainPage extends React.Component {
                                 label="jan 2019 — apr 2019"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
                             ></WorkExperiences>
-                            <WorkExperiences title=" ubilab — software developer intern"
+                            {/* <WorkExperiences title=" ubilab — software developer intern"
                                 description="(4)"
                                 label="sep 2018 — dec 2018"
                                 link="https://www.linkedin.com/in/jerin-raisa/"
-                            ></WorkExperiences>
+                            ></WorkExperiences> */}
                         </WorkExperience>
                         <Projects>
                             <h4><Bold>my <Colour>projects.</Colour></Bold></h4>
